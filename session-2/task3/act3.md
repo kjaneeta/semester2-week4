@@ -1,29 +1,23 @@
-# Command line arguments and dynamic memory allocation
+# Command line arguments in C and Python
 
 
 
-1. **Using atoi() and atof()**
+There are 2 example programs:
+
+* cmd\_line\_args.py
+* cmd\_line\_args.c
 
 
 
-The program cmd\_line\_data.c is designed to accept 3 command line arguments of different type.
-
-Add code to properly handle the specified data types.
-
-Implement a solution in Python and compare the code.
+In both cases inspect the code and execute the program.
 
 
 
-2. **Vector and matrix operations**
+Inspect the output. What data type is argv?
 
 
 
-Considering the examples from session 1 of this week choose one vector and one matrix task
-and modify the examples to use a command line argument that sets the size of the vector and matrix.
+Note the similarities in use of argv 
 
-- The command line argument can define the vector (or matrix) size N
-- Modify the code to dynamically allocate the vector or matrix
-- For good memory management deallocate memory at the end before exiting the program
-
-There are two example solutions provided in the repository for this session that you can use if you wish.
-
+* The standard implementation of Python is in C
+* Python based this feature on the existing C model.

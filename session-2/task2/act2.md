@@ -1,23 +1,21 @@
-# Command line arguments in C and Python
+# Task 1 - character arrays and strings
+
+1. **character arrays are not strings**
+
+Small example showing how character arrays differ from strings.
+
+Challenge: 
+- Explain why printing the array as a string (%s) causes a strange result.
+- Hint: Change the second string to something other than "hello".
+
+2. **String library**
+
+The program `string_ops.c` requires you to test some C string library functions.
 
 
-
-There are 2 example programs:
-
-* cmd\_line\_args.py
-* cmd\_line\_args.c
-
+Note: 
+- We declare the strings with space for additional characters
+- Operations such as concatenation are "in place",
+- ie. they use the existing string and expect space to be available 
 
 
-In both cases inspect the code and execute the program.
-
-
-
-Inspect the output. What data type is argv?
-
-
-
-Note the similarities in use of argv 
-
-* The standard implementation of Python is in C
-* Python based this feature on the existing C model.

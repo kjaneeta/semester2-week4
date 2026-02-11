@@ -1,42 +1,29 @@
-# Implement programs in C and Python
+# Command line arguments and dynamic memory allocation
 
 
 
-There are 2 C tasks to complete.
+1. **Using atoi() and atof()**
 
 
 
-**compute\_pi.c**
+The program cmd\_line\_data.c is designed to accept 3 command line arguments of different type.
 
-Extension task:
+Add code to properly handle the specified data types.
 
-* if you consider the output for n=100 and n=200 can you predict how many terms are required to achieve and error = 0.0001?
-
-
-
-**string\_search.c**
-
-Extension task:
-
-* what happens if you search for a character that is not in the string?
-* can you explain why?
+Implement a solution in Python and compare the code.
 
 
 
-**Implementation in Python**
-
-You should also implement solutions in Python to each task.
-
-Compare your C and Python solutions in terms of:
-
-* use of built-in libraries/modules
-* simplicity
+2. **Vector and matrix operations**
 
 
 
-**Comments and documentation**
+Considering the examples from session 1 of this week choose one vector and one matrix task
+and modify the examples to use a command line argument that sets the size of the vector and matrix.
 
-Remove the instructions from the C code and properly document your solution.
+- The command line argument can define the vector (or matrix) size N
+- Modify the code to dynamically allocate the vector or matrix
+- For good memory management deallocate memory at the end before exiting the program
 
-Add docstrings to your Python code.
+There are two example solutions provided in the repository for this session that you can use if you wish.
 
