@@ -23,6 +23,9 @@
     print your final answer
     */
 
+   
+   
+
     // explicit deallocation of heap memory before exit */
     free(a);
     free(b);
