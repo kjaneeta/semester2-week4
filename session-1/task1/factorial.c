@@ -6,18 +6,18 @@
  #include <stdio.h>
 
  int main( void ) {
-    int f[20];
+    long long f[20];
 
     f[0] = 1;
 
-   for(int i = 0; i<20; ++i)
+   for(int i = 1; i<20; ++i)
    {
       f[i] = i * f[i-1];
    }
 
    for(int i = 0; i<20; ++i)
    {
-      printf('Factorial of ' + i + ' = ' + f[i]);
+      printf("Factorial of %d = %lld\n", i, f[i]);
    }
 
     /*
