@@ -17,5 +17,5 @@ int main( int argc, char **argv ) {
     return 0;
 }
 
-// What is printed?
-// What form is the data?
+// What is printed? - argc is the number of arguments, argv as an array where each index is each argument
+// What form is the data? - an array

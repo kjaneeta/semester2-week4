@@ -10,5 +10,5 @@ import sys
 print(f"Number of args: {len(sys.argv)}")
 print(f"argv: {sys.argv}")
 
-# what is printed?
-# what form is the data?
+# what is printed? - length of the list and the argv list
+# what form is the data? - a list of strings
