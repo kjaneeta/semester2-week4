@@ -13,3 +13,23 @@
  6. print the answer appropriately as pointer, character and string
  */ 
 
+#include <stdio.h>
+#include <string.h>
+
+int main (void)
+{
+    char str1[100] = "The quick brown fox jumped over the lazy dog";
+    char str2[100] = "ump";
+    char *p = strstr(str1, str2);    /* pointer to the first occurrence */
+
+    if (p) {
+        /* print as a pointer, a character, and a string */
+        printf("Pointer = %p\n", (void *)p);
+        printf("Character = %c\n", *p);
+        printf("String = %s\n", p);
+    } else {
+        puts("substring not found");
+    }
+
+
+}
