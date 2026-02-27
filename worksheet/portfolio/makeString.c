@@ -11,6 +11,13 @@ int main( int argc, char **argv ) {
 
     // define appropriate data to hold your answer
 
+    char buffer[55] = "";
+
+    for (int i = 1; i < argc; i++) {
+        stringcat(buffer, argv[i]);
+        if (i < argc - 1) stringcat(buffer, "-");
+    }
+
     // process the command-line data using appropriate string functions
 
     printf("%s\n",buffer); // use only this single print statement in your submitted code
