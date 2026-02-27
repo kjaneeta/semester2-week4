@@ -7,15 +7,18 @@ Student ID: 201967257
 #include <stdio.h>
 #include <string.h>
 
-int main( int argc, char **argv ) {
+int main( int argc, char **argv ) 
+{
 
     // define appropriate data to hold your answer
 
     char buffer[55] = "";
 
-    for (int i = 1; i < argc; i++) {
-        stringcat(buffer, argv[i]);
-        if (i < argc - 1) stringcat(buffer, "-");
+    for (int i = 1; i < argc; i++) 
+    {
+        strcat(buffer, argv[i]); 
+        // concatenate
+        if (i < argc - 1) strcat(buffer, "-");
     }
 
     // process the command-line data using appropriate string functions
